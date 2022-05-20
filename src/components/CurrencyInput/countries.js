@@ -3,4 +3,13 @@ export const countries = {
   AFN: "Afghan Afghani",
   ALL: "Albanian Lek",
   AMD: "Armenian Dram",
+  ANG: "Netherlands Antillean Guilder",
+  AOA: "Angolan Kwanza",
+  ARS: "Argentine Peso",
+  AUD: "Australian Dollar",
+  AWG: "Aruban Florin",
+  AZN: "Azerbaijani Manat",
+  BAM: "Bosnia-Herzegovina Convertible Mark",
+  BBD: "Barbadian Dollar",
+  BDT: "Bangladeshi Taka",
 };
