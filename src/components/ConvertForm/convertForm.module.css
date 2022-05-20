@@ -1,3 +1,38 @@
-.container{
-    
+.container {
+  background: linear-gradient(162.71deg, #2f8f9d -17.91%, #b3e8e5 101.75%);
+  border-radius: 0.75em;
+
+  width: 75vw;
+  height: auto;
+
+  padding: 3%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background-color: #2f76ff;
+  max-width: 50vw;
+
+  padding: 0.5em 2em;
+  color: white;
+  font-weight: 900;
+  font-size: large;
+
+  border: none;
+  border-radius: 0.5em;
+}
+
+input {
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+
+  border-radius: 0.3em;
 }

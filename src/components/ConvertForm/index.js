@@ -1,17 +1,21 @@
+import style from "./convertForm.module.css";
 
-import style from "./convertForm.module.css"
 const ConvertForm = () => {
   return (
     <div className={style.container}>
-        <label>Amount:</label>
-        <input type="text"/>
-        <p>From:</p>
-        <p>To:</p>
-        <p>Exchange rate:</p>
-        <button>Convert</button>
-        <p>Result</p>
-    </div>
-  )
-}
+      <p>Amount</p>
+      <input type="text" />
+      <p>From</p>
 
-export default ConvertForm
+      <p>To</p>
+
+      <p>Exchange rate:</p>
+
+      <button>Convert</button>
+      <p>Converted</p>
+      <div>Result</div>
+    </div>
+  );
+};
+
+export default ConvertForm;
